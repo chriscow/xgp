@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/go-gota/gota/dataframe"
+	"github.com/go-gota/gota/series"
 	"github.com/gonum/floats"
-	"github.com/kniren/gota/dataframe"
-	"github.com/kniren/gota/series"
 	"github.com/spf13/cobra"
 )
 

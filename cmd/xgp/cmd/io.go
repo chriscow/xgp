@@ -12,8 +12,8 @@ import (
 
 	"github.com/MaxHalford/xgp"
 	"github.com/MaxHalford/xgp/meta"
-	"github.com/kniren/gota/dataframe"
-	"github.com/kniren/gota/series"
+	"github.com/go-gota/gota/dataframe"
+	"github.com/go-gota/gota/series"
 )
 
 const perm = 0644

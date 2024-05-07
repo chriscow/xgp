@@ -1,6 +1,6 @@
 package cmd
 
-import "github.com/kniren/gota/dataframe"
+import "github.com/go-gota/gota/dataframe"
 
 // removeString is a pure function to remove a slice from a slice.
 func removeString(s []string, e string) []string {

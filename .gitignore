@@ -12,4 +12,5 @@ xgp.egg-info/
 *.test
 .cache
 *.svg
+.venv
 profile_cpu.out

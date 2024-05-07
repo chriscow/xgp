@@ -45,8 +45,8 @@ func (rocauc ROCAUC) Apply(yTrue, yPred, weights []float64) (float64, error) {
 	stat.SortWeightedLabeled(yPredCopy, classes, weightsCopy)
 
 	var (
-		tpr, fpr = stat.ROC(0, yPredCopy, classes, weightsCopy)
-		auc      = integrate.Trapezoidal(tpr, fpr)
+		tpr, fpr, _ = stat.ROC([]float64{0}, yPredCopy, classes, weightsCopy)
+		auc         = integrate.Trapezoidal(tpr, fpr)
 	)
 
 	return auc, nil
